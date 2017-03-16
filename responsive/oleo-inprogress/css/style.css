@@ -159,16 +159,18 @@ h2, h3, h4, h5 {
 
 .note.stored {
   display: block;
+  padding: 1% 1% 2%;
+  box-shadow: none;
 }
 
 .note.stored .bnnrx {
   width: 280px;
-  min-width: 284px;
-  max-width: 290px;
-  height: 130px;
+  min-width: 286px;
+  max-width: 280px;
+  height: 140px;
   display: inline-block;
   border-radius: 4px;
-  margin: 4px auto 4px;
+  margin: 0 auto;
   vertical-align: middle;
   overflow: hidden;
 }
