@@ -13,6 +13,14 @@ $pantone428u: #abaaad
 $pantonew: #ffffff
 $pantonelg: #f0f0f0
 $pantonemetal: #282a2b
+$pantonegold: #e2a32e
+$bl: #000
+$txtboton: #1B9BB9
+$bgmain: #F4A920
+$top501: #E0A731
+$top500: #209BA5
+$nunet: #B93F40
+$bannerll: #BD5125
 
 $otherb: #47a2d2
 $otherg: #666666
@@ -55,6 +63,8 @@ h2, h3, h4, h5
 
 .oleo
   color: $pantone367u
+.fwhite
+  color: #fff
 
 .bgwhite
   background-color: rgba($pantonew,.6)
@@ -62,20 +72,14 @@ h2, h3, h4, h5
 .bguwhite
   background-color: #fff
 
-.bgice
-  background-color: $pantone628u
-  h3,p
-    color: $pantonemetal
-
-
 .bgmetal
   background-color: $pantonemetal
 
 .bglgray
   background-color: #EBEBEB
 
-.icoral
-  background-color: #5fa7d3
+.icolor
+  background-color: $pantone563u
 
 
 .bg22c
@@ -99,10 +103,6 @@ h2, h3, h4, h5
 .fmed
   font-size: 14px !important
 
-.fxmed
-  font-size: 15px !important
-  line-height: 24px !important
-
 .fnormal
   font-size: 20px
 
@@ -117,16 +117,63 @@ h2, h3, h4, h5
 
 .tpads
   padding: 10px
+.nopads
+  padding: 0
+  line-height: 16px
+.nopadstb
+  padding: 0 4px
+  line-height: 16px
 
 .tmargs
   margin-top: 30px
   margin-bottom: 30px
 
+.fxmed
+  font-size: 100% !important
+  line-height: 28px !important
+  color: #fff
+  max-width: 600px
+  margin-top: 10px
+  margin-left: auto
+  margin-right: auto
+  margin-bottom: 10px
+.stores
+  a
+    text-align: center
+    display: inline-block
+    width: 38%
+    max-width: 106px
+    margin: 2%
+  img
+    display: block
+    max-width: 106px
+
+
+.note.stored
+  display: block
+  padding: 1% 1% 12px
+  box-shadow: none
+  .bnnrx
+    width: 280px
+    min-width: 286px
+    max-width: 280px
+    height: 140px
+    display: inline-block
+    border-radius: 4px
+    margin: 0 auto
+    vertical-align: middle
+    overflow: hidden
+    .bnnh
+      overflow: hidden
+      width: 100%
+      display: block
+      img
+        display: block
+        width: 100%
 .tw
   color: $pantonew
 
-.ifix
-  height: 400px
+.ifix1, .ifix2, .ifix3
   overflow: hidden
   padding: 0
   vertical-align: middle
@@ -135,9 +182,98 @@ h2, h3, h4, h5
     padding: 0 10%
     margin: 5% auto 0
 
+.ifix1
+  height: 400px
+.ifix2
+  height: 390px
+  p
+    margin: 0 auto
+
+.addsin
+  display: block
+  width: 100%
+  min-width: 280px
+  margin: 0 0 10px
+  padding: 20px 0 0 !important
+  overflow: hidden
+  text-align: center
+  background-color: rgba($pantonew,.0)
+
+  .boxit
+    max-width: 190px
+    padding: 0
+    margin:  0
+    line-height: 30px
+    overflow: hidden
+    display: inline-block
+    a,.txts
+      width: 100%
+      overflow: hidden
+      margin: 0
+      display: block
+    .txts
+      width: 190px
+      height: 90px
+      line-height: 20px
+      color: #555
+      strong
+        line-height: 30px
+        margin-bottom: 0
+        font-weight: bold
+        font-size: 160%
+        color: #333
+    .imga
+      max-width: 146px
+      padding: 10px
+      display: inline-block
+      border-radius: 100px
+      overflow: hidden
+
+      border: 1px solid #eee
+    img
+      display: inline-block
+      background-color: #fff
+      width: 120px
+      height: 120px
+      line-height: 120px
+      border-radius: 100%
+
+
 .tdformat
   background-position: center
+.tdformat.ifix3,
+.tdformat.ifix2
+  position: relative
+  height: 390px
 
+  background-position: center -10px
+  background-repeat: no-repeat
+  background-color: #fff
+  .tw
+    background-color: rgba($pantonew,.0)
+    color: $pantonew
+    margin: 0 0
+    padding: 0 0 10px
+    line-height: 40px
+    .bgh2
+      color: $pantonew
+      display: inline-block
+      background-color: rgba($pantonemetal,.6)
+      line-height: 36px
+      text-align: center
+      padding: 0 10px
+      margin: 4px auto
+.logo
+  background-color: rgba($bl,.0)
+  display: block
+  overflow: hidden
+  width: 280px
+  margin: 20px auto 0
+  .logonod
+    max-width: 300px
+    img
+      width: 100%
+      display: block
 .backbody
   width: 100%
   text-align: center
@@ -177,7 +313,7 @@ table
       padding: 0 8px
       display: inline-block
       clear: both
-      background-color: $pantone7618u
+      background-color: $pantonegold
       color: $pantonew
       box-shadow: 0 10px 10px -10px rgba($pantoneu, 0.8)
       transition: .3s
@@ -189,7 +325,7 @@ table
   transition: .3s
 
 .content
-  margin: 10px auto 20px
+  margin: 10px auto 0
   display: block
   clear: both
   overflow: hidden
@@ -201,25 +337,26 @@ table
 .buttons
 
   padding: 0 20px
-  margin: 4px auto 12px
+  margin: 0 auto 12px
   text-align: center
   overflow: hidden
 .btn, .btng
   width: 100%
-  max-width: 200px
-  line-height: 36px
-  border-radius: 6px
+  max-width: 280px
+  line-height: 44px
+  border-radius: 4px
   border: 0
   padding: 0 8px
+  margin-bottom: 16px
   display: inline-block
   clear: both
   background-color: $pantone7618u
   color: $pantonew
-  box-shadow: 0 10px 10px -10px rgba($pantoneu, 0.8)
+  box-shadow: 0 3px 8px -10px rgba($pantoneu, 0.8)
   transition: .3s
   &:hover
     background-color: $otherb
-    box-shadow: 0 6px 10px -4px rgba($pantoneu, 0.8)
+    box-shadow: 0 6px 8px -10px rgba($pantoneu, 0.8)
 
 .note
   color: $otherg
@@ -257,11 +394,11 @@ table
     border-radius: 4px
     box-shadow: 0 4px 10px -4px rgba($pantoneu, 0.6)
 
-$color1: #bd9abd
+$color1: #92b970
 $color2: #d3bd76
-$color3: #5fa7d3
-$color4: #dd427e
-$color5: #92b970
+$color3: #7ab3a3
+$color4: #d68e84
+$color5: #bd9abd
 
 .bgcoral
   background-color: $color4
@@ -300,6 +437,8 @@ $color5: #92b970
     height: 100px
     line-height: 20px
     margin: 0
+
+
 
 .color1
   background-color: $color1
@@ -358,7 +497,7 @@ $color5: #92b970
       height: 48px
       margin-bottom: 12px
     .defh
-      line-height: 18px
+      line-height: 26px
       height: 120px
       margin-bottom: 16px
       strong
@@ -383,18 +522,22 @@ $color5: #92b970
         display: inline-block
         background-color: #fff
 
+
 .footer
   padding: 0 6px 0
   margin: 0 auto
   display: block
   max-width: 600px
   .net
-    background-color: $pantonemetal
     display: block
     border-radius: 4px
     text-align: right
     padding: 0 10px
     overflow: hidden
+  .net.bgody
+    background-color: $nunet
+  .net.bgodx
+    background-color: $pantonemetal
 
 .icons
   display: inline-block
@@ -427,7 +570,8 @@ $color5: #92b970
       padding: 5px 0
       display: inline-block
       text-align: center !important
-
+.descuentos
+  color: #fff
 .rest
   padding: 0
   margin: 10px auto
@@ -455,6 +599,42 @@ $color5: #92b970
       max-width: 31%
       box-shadow: 0 4px 10px -4px rgba($pantoneu, 0.6)
 
+
+.dual.col3
+  width: 100%
+  h3
+    padding: 10px
+  .bgw1,.bgw2,.bgw3
+    display: inline-block
+    max-width: 32%
+    height: 100%
+    padding: 0 3%
+    overflow: hidden
+    //vertical-align: middle
+
+    margin: 0 auto 4px
+    border: 0
+    border-radius: 0
+  .imgcirl
+    display: inline-block
+    width: 100%
+    height: 100%
+    max-width: 120px
+    max-height: 120px
+    border: 3px dashed #ccc
+    border-radius: 100%
+    margin: 12% 0 10%
+    padding: 10%
+  img
+    width: 80%
+    padding: 0
+    border: 0
+    display: inline-block
+  p
+    height: 100px
+    font-size: 90%
+    line-height: 20px
+    margin: 0
 @media (max-width: 320px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)
   table
     width: 100%
@@ -493,3 +673,13 @@ $color5: #92b970
     width: 100%
     .bnnl,.bnnr
       max-width: 280px
+
+  .dual.col3
+    width: 100%
+    p
+      background-color: red
+    .bgw1,.bgw2,.bgw3
+      min-width: 290px
+  .tdformat.ifix3
+    .bgw1,.bgw2,.bgw3
+      min-width: 280px !important

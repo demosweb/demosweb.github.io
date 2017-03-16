@@ -123,6 +123,28 @@ h2, h3, h4, h5 {
   display: block;
   max-width: 106px; }
 
+.note.stored {
+  display: block;
+  padding: 1% 1% 12px;
+  box-shadow: none; }
+  .note.stored .bnnrx {
+    width: 280px;
+    min-width: 286px;
+    max-width: 280px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 4px;
+    margin: 0 auto;
+    vertical-align: middle;
+    overflow: hidden; }
+    .note.stored .bnnrx .bnnh {
+      overflow: hidden;
+      width: 100%;
+      display: block; }
+      .note.stored .bnnrx .bnnh img {
+        display: block;
+        width: 100%; }
+
 .tw {
   color: white; }
 
@@ -280,7 +302,7 @@ table {
   transition: 0.3s; }
 
 .content {
-  margin: 10px auto 20px;
+  margin: 10px auto 0;
   display: block;
   clear: both;
   overflow: hidden;
@@ -475,12 +497,15 @@ table {
   display: block;
   max-width: 600px; }
   .footer .net {
-    background-color: #b93f40;
     display: block;
     border-radius: 4px;
     text-align: right;
     padding: 0 10px;
     overflow: hidden; }
+  .footer .net.bgody {
+    background-color: #b93f40; }
+  .footer .net.bgodx {
+    background-color: #282a2b; }
 
 .icons {
   display: inline-block;
@@ -512,6 +537,9 @@ table {
     padding: 5px 0;
     display: inline-block;
     text-align: center !important; }
+
+.descuentos {
+  color: white; }
 
 .rest {
   padding: 0;

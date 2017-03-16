@@ -148,6 +148,28 @@ h2, h3, h4, h5
     display: block
     max-width: 106px
 
+
+.note.stored
+  display: block
+  padding: 1% 1% 12px
+  box-shadow: none
+  .bnnrx
+    width: 280px
+    min-width: 286px
+    max-width: 280px
+    height: 140px
+    display: inline-block
+    border-radius: 4px
+    margin: 0 auto
+    vertical-align: middle
+    overflow: hidden
+    .bnnh
+      overflow: hidden
+      width: 100%
+      display: block
+      img
+        display: block
+        width: 100%
 .tw
   color: $pantonew
 
@@ -303,7 +325,7 @@ table
   transition: .3s
 
 .content
-  margin: 10px auto 20px
+  margin: 10px auto 0
   display: block
   clear: both
   overflow: hidden
@@ -506,12 +528,15 @@ $color5: #bd9abd
   display: block
   max-width: 600px
   .net
-    background-color: $nunet
     display: block
     border-radius: 4px
     text-align: right
     padding: 0 10px
     overflow: hidden
+  .net.bgody
+    background-color: $nunet
+  .net.bgodx
+    background-color: $pantonemetal
 
 .icons
   display: inline-block
@@ -544,7 +569,8 @@ $color5: #bd9abd
       padding: 5px 0
       display: inline-block
       text-align: center !important
-
+.descuentos
+  color: #fff
 .rest
   padding: 0
   margin: 10px auto
