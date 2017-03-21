@@ -53,7 +53,7 @@ h2, h3, h4, h5 {
   background-color: #ebebeb; }
 
 .icoral {
-  background-color: #d98882; }
+  background-color: #6cbaa7; }
 
 .bg22c {
   background-color: #ba92c3; }
@@ -190,71 +190,6 @@ h2, h3, h4, h5 {
       line-height: 120px;
       border-radius: 100%; }
 
-.addsin.brands .boxit {
-  background-color: #ffc355;
-  border-radius: 100px 100px 4px 4px;
-  padding-top: 20px; }
-.addsin.brands .imga {
-  max-width: 146px;
-  padding: 6px;
-  display: inline-block;
-  border-radius: 100px;
-  overflow: hidden;
-  border: 3px dotted white; }
-  .addsin.brands .imga .imgain {
-    width: 126px;
-    height: 126px;
-    max-width: 126px;
-    display: inline-block;
-    border-radius: 100px;
-    overflow: hidden;
-    background-color: white; }
-    .addsin.brands .imga .imgain span {
-      display: block;
-      max-width: 146px;
-      margin: 14px 0 0;
-      color: orange; }
-    .addsin.brands .imga .imgain strong {
-      display: block;
-      max-width: 146px;
-      margin: 0;
-      color: black;
-      line-height: 50px;
-      font-size: 50px;
-      font-weight: bold; }
-.addsin.brands img {
-  display: inline-block;
-  background-color: white;
-  width: 120px;
-  height: 120px;
-  line-height: 120px;
-  border-radius: 100%; }
-.addsin.brands .imgbrands {
-  border: 0;
-  border-radius: 0;
-  display: inline-block;
-  width: 100%;
-  max-width: 190px;
-  padding: 0;
-  margin: 0;
-  border-radius: 0; }
-  .addsin.brands .imgbrands a {
-    background-color: #f9f9f9;
-    margin: 0 auto;
-    width: 176px;
-    border-radius: 4px; }
-    .addsin.brands .imgbrands a .btn {
-      width: 90%;
-      margin: 0 4px 12px;
-      color: white;
-      background-color: #2ecc71; }
-  .addsin.brands .imgbrands img {
-    width: 100%;
-    height: 90px;
-    max-width: 160px;
-    padding: 0;
-    margin: 0; }
-
 .tdformat {
   background-position: center; }
 
@@ -293,20 +228,6 @@ h2, h3, h4, h5 {
     .logo .logonod img {
       width: 100%;
       display: block; }
-
-.ifix2.lseg .logo {
-  margin: 0;
-  background-color: rgba(40, 42, 43, 0.2);
-  height: 291px;
-  width: 100%;
-  text-align: right; }
-  .ifix2.lseg .logo .logonod img {
-    max-width: 200px;
-    float: right;
-    margin-right: -20px; }
-.ifix2.lseg .nobr {
-  border-radius: 0 0 4px 4px;
-  margin: 0; }
 
 .backbody {
   width: 100%;
@@ -385,11 +306,9 @@ table {
   clear: both;
   background-color: #d98882;
   color: white;
-  box-shadow: 0 10px 10px -10px rgba(44, 43, 50, 0.8);
   transition: 0.3s; }
   .btn:hover, .btng:hover {
-    background-color: #47a2d2;
-    box-shadow: 0 6px 10px -4px rgba(44, 43, 50, 0.8); }
+    background-color: #47a2d2; }
 
 .note {
   color: #666666;
@@ -554,7 +473,7 @@ table {
   display: block;
   max-width: 600px; }
   .footer .net {
-    background-color: #b93f40;
+    background-color: #282a2b;
     display: block;
     border-radius: 4px;
     text-align: right;
