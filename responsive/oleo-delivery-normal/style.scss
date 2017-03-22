@@ -125,10 +125,11 @@ h2, h3, h4, h5 {
 
 .note.stored {
   display: block;
-  padding: 4px 0; }
+  padding: 1% 1% 12px;
+  box-shadow: none; }
   .note.stored .bnnrx {
     width: 280px;
-    min-width: 284px;
+    min-width: 286px;
     max-width: 280px;
     height: 140px;
     display: inline-block;
